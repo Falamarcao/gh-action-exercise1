@@ -34,7 +34,7 @@ jobs:
                 node-version: 18
             
             - name: Install dependencies
-              run: npm run build
+              run: npm ci
             
             - name: Deploy
               run: echo "Deploying on Cloud ..."
